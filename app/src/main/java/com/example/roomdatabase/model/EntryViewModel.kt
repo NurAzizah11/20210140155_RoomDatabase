@@ -1,10 +1,13 @@
+package com.example.roomdatabase.model
+
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
+import androidx.lifecycle.ViewModel
 import com.example.roomdatabase.data.Siswa
 import com.example.roomdatabase.repositori.RepositoriSiswa
 
-class EntryViewModel(private val repositoriSiswa: RepositoriSiswa){
+class EntryViewModel(private val repositoriSiswa: RepositoriSiswa): ViewModel() {
 
     var uiStateSiswa by mutableStateOf(UIStateSiswa())
         private set
