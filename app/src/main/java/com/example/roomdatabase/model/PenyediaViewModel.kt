@@ -1,5 +1,6 @@
 package com.example.roomdatabase.model
 
+import android.text.Spannable.Factory
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewmodel.CreationExtras
 import androidx.lifecycle.viewmodel.initializer
